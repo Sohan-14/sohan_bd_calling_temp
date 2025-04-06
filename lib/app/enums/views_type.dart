@@ -1,0 +1,5 @@
+enum ViewsType {
+  RESET_PASSWORD,
+  CHANGE_PASSWORD,
+  HOME,
+}

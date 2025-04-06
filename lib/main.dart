@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:sohan_bd_calling_temp/core/di/app_bindings.dart';
-import 'package:sohan_bd_calling_temp/core/routes/app_routes.dart';
-import 'package:sohan_bd_calling_temp/core/routes/app_screens.dart';
-import 'package:sohan_bd_calling_temp/core/themes/theme.dart';
-import 'core/themes/theme_manager.dart';
+import 'package:sohan_bd_calling_temp/app/di/app_bindings.dart';
+import 'package:sohan_bd_calling_temp/app/routes/app_routes.dart';
+import 'package:sohan_bd_calling_temp/app/routes/app_screens.dart';
+import 'package:sohan_bd_calling_temp/app/themes/theme.dart';
+import 'app/themes/theme_manager.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
