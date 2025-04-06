@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sohan_bd_calling_temp/app/config/app_constants.dart';
@@ -16,7 +15,6 @@ import 'package:sohan_bd_calling_temp/app/widgets/auth_screen_title_section.dart
 import 'package:sohan_bd_calling_temp/app/widgets/custom_button.dart';
 import 'package:sohan_bd_calling_temp/app/widgets/custom_rich_text.dart';
 import 'package:sohan_bd_calling_temp/app/widgets/input_layout.dart';
-import 'package:sohan_bd_calling_temp/app/widgets/row_end_text.dart';
 import 'package:sohan_bd_calling_temp/features/auth/controllers/auth_controller.dart';
 
 class SignUpScreen extends StatelessWidget {
@@ -83,16 +81,6 @@ class SignUpScreen extends StatelessWidget {
                           ),
 
                           const SizedBox(height: AppSizes.sm,),
-
-                          RowEndText(
-                            label: AppStrings.resetPassword,
-                            onPress: () => Get.toNamed(AppScreens.verifyEmailRoute, arguments: <String, dynamic>{
-                              AppConstants.viewsType: ViewsType.RESET_PASSWORD
-                            }),
-                          ),
-
-                          // privacy policy layout
-                          // TermsAndConditionLayout(),
                         ],
                       )
                   ),
